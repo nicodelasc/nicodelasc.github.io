@@ -28,6 +28,17 @@
             </td>
         </tr>
     </table>
-    
+    <form>
+      Enter your name:
+      <input type="text" name="fullname" /> <br/>
+      relationship status:
+      <input type="radio" name="single" value="S" /> Single <br/>
+      <input type="radio" name="taken" value="T" /> Taken <br/>
+      <br/>
+        <input type="checkbox" name="topics[]" value="Art" />Art
+		<input type="checkbox" name="topics[]" value="Science" />Science
+		<input type="checkbox" name="topics[]" value="Technology" />Technology
+        <input type="submit" value="send" />
+    </form>
 </body>
 </html>
